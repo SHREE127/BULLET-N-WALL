@@ -6,12 +6,12 @@ function setup() {
 
   speed = Math.random(280,350);
   weight = Math.random(30,52);
-  thickness = Math.random(30,100)
+  thickness = Math.random(23,81)
 
   bullet = createSprite(50,200,50,50);
   bullet.velocityX= speed;
 
-  wall = createSprite(1200,200,thickness,height/2);
+  wall = createSprite(1200,200,thickness,200);
 }
 
 function draw() {
