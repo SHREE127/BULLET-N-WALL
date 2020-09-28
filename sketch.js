@@ -4,7 +4,7 @@ var speed, weight, thickness;
 function setup() {
   createCanvas(1600,400);
 
-  speed = Math.random(221,321);
+  speed = Math.random(280,350);
   weight = Math.random(30,52);
   thickness = Math.random(22,83)
 
